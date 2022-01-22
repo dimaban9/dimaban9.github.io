@@ -10,27 +10,60 @@
             display: flex;
             height: 400px;
             width: 300px;
-            background-color: rgb(119, 72, 29);
+            background-color: rgb(70, 214, 13);
             flex-direction: column;
         }
         .item-1 {
             height: 100%;
             background-color: darkorange;
             margin: 1%;
+            align-items: center;
+            justify-content: center;
+            display: flex;
+            flex-direction: column;
+        }
+        .item-2 {
+            display:flex;
+            justify-content: space-around;
+            flex-basis:20%;
+            
+        }
+        .info {
+            width: 70%;
+            margin: 2%;
+            background-color: rgb(81, 81, 221);
+        }
+        body {
+            align-items: center;
+            display: flex;
+            justify-content: center;
+            height: 100vh;
+        }
+        .text {
+            align-items: center;
+            justify-content: center;
+            color: white;
+            display: flex;
+            height: 10vh;
         }
     </style>
 </head>
 <body>
     <div class="container">
         <div class="item-1">
-
+         <h1>Описание сайта</h1>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore est nihil quisquam, quas explicabo ullam vel dolore aspernatur distinctio, dignissimos ea aperiam voluptas debitis rerum totam quo incidunt atque ex?</p>
         </div>
         <div class="item-2">
-            <div class="info">
-
+            <div class="info" href="index.html">
+            <span class="text">
+                Войти!!!
+            </span>
             </div>
-            <div class="info">
-
+            <div class="info" href="404.html">
+            <span class="text">
+                Подумать!!!
+            </span>
             </div>
         </div>
     </div>
